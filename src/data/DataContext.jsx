@@ -8,7 +8,7 @@ export const DataProvider = ({ children }) => {
         const saved = localStorage.getItem('upsc_master_data');
         const defaultUI = {
             sections: [
-                { id: 'hero', name: 'Main Banner', visible: true, order: 0, settings: {} },
+                { id: 'hero', name: 'Hero Section', visible: true, order: 0, settings: {} },
                 {
                     id: 'pyqs',
                     name: 'PYQ Vault',
@@ -122,7 +122,7 @@ export const DataProvider = ({ children }) => {
             subjects: ["Polity", "Economy", "History", "Geography", "Environment"],
             uiConfig: {
                 sections: [
-                    { id: 'hero', name: 'Main Banner', visible: true, order: 0, settings: {} },
+                    { id: 'hero', name: 'Hero Section', visible: true, order: 0, settings: {} },
                     {
                         id: 'pyqs',
                         name: 'PYQ Vault',
