@@ -52,7 +52,7 @@ const Hero = ({ config }) => (
                     🔥 Premium Preparation Platform
                 </span>
                 <h1 style={{ fontSize: '5rem', lineHeight: '1', fontWeight: '800', marginBottom: '24px' }}>
-                    {config?.name || 'Your Ultimate UPSC Study Hub'}
+                    Your Ultimate UPSC Study Hub
                 </h1>
                 <p style={{ color: 'var(--text-muted)', fontSize: '1.4rem', marginBottom: '48px', maxWidth: '800px', margin: '0 auto 48px' }}>
                     Integrated vault for PYQs, detailed subject notes, and official PDF documents.
