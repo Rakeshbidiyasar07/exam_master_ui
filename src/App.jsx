@@ -7,7 +7,7 @@ import AdminPortal from './components/AdminPortal';
 function App() {
   return (
     <DataProvider>
-      <Router>
+      <Router basename={import.meta.env.BASE_URL}>
         <Routes>
           <Route path="/" element={<UserPortal />} />
           <Route path="/admin" element={<AdminPortal />} />
